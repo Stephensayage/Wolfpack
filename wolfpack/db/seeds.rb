@@ -11,3 +11,6 @@ User.create(username: 'Erica', password: 'erica1')
 User.create(username: 'Justin', password: 'justin1')
 User.create(username: 'Andrew', password: 'andrew1')
 User.create(username: 'Alden', password: 'alden1')
+
+Message.destroy_all
+Message.create(body: 'Hi Everyone! Welcome to the first Wolfpack chatroom.', user: User.first)

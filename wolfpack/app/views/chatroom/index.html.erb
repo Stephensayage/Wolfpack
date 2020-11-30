@@ -29,38 +29,18 @@
       <div class="content">
         <div class="ui  feed">
           <h4 class="ui header">Chatroom</h4>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Elliot Fu</em> : test message
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Stevie Feliciano</em> added <a>Elliot Fu</a> as a friend
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Helen Troy</em> added <a>Christian Rocha</a> as a friend
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Christian Rocha</em> signed up for the  site.
-              </div>
-            </div>
-          </div>
+         <% @messages.each do |message| %>
+            <div class="event">
+              <div class="content">
+                <div class="summary">
+                  <em class="username"><%= message.user.username %>:</em><%= message.body %>
+                </div>
+                <%end%>
         </div>
-
-
       </div>
+      </div>
+      </div>
+
       <div class="extra content">
         <form class="ui reply form">
           <div class="field">
