@@ -29,13 +29,7 @@
       <div class="content">
         <div class="ui  feed">
           <h4 class="ui header">Chatroom</h4>
-         <% @messages.each do |message| %>
-            <div class="event">
-              <div class="content">
-                <div class="summary">
-                  <em class="username"><%= message.user.username %>:</em><%= message.body %>
-                </div>
-                <%end%>
+         <%= render @messages %>
         </div>
       </div>
       </div>
