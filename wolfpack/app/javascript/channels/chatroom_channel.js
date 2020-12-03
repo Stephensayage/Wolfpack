@@ -10,7 +10,7 @@ consumer.subscriptions.create("ChatroomChannel", {
   },
 
   received(data) {
-    $("#chatroom-feed").append(data.foo);
+    $("#chatroom-feed").append(data.sub_message);
     // Called when there's incoming data on the websocket for this channel
   },
 });
