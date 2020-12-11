@@ -1,6 +1,10 @@
 class SessionsController < ApplicationController
   before_action :logged_in_redirect, only: [:new, :create]
 
+  def index
+    users = User.all
+  end
+
   def new
   end
 
