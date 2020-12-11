@@ -11,3 +11,11 @@
   font-size: 18px;
   padding-right: 10px;
 }
+.input {
+  button {
+    display: none;
+  }
+}
+#messages {
+  overflow: auto;
+}
