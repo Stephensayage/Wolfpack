@@ -4,7 +4,7 @@
 
 # Instant Messaging App
 
-The create acc is not function yet, please use these logins to use the app.
+The create acc is not functioning yet, please use these logins to use the app.
 Login on one acc in your browers, then use another browers or an incognito browers to login to another account.
 
 Chat it up to see the instant feedback.
