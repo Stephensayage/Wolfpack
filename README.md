@@ -1,6 +1,6 @@
 # Wolfpack
 
-![website image](blob:https://imgur.com/9ff1f7be-c776-4deb-96f2-bfa976610524)
+[website image](blob:https://imgur.com/9ff1f7be-c776-4deb-96f2-bfa976610524)
 
 #Instant Messaging App
 
